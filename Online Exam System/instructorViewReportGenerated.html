@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paneStyleAdmin.css">
+    <title>Instructor</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="images/oes-Logo.png" alt="logo" class="royalLogo">
+        </div>
+    </header>
+    <div class="bankerPanelMain">
+
+        <div class="mainPage">
+            <div class="mainPane">
+                <h1 id="loginas">Instructor Panel</h1>
+
+                <div class="afterMainPane">
+                    <div class="bankerProfile">
+                        <div class="adminAvatar">
+                            <div class="adminAvatarIcon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bio-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                </svg>
+                            </div>
+                            <div class="adminUsernameVisible">
+                                John Doe
+                                <!-- ${AdminLoginName} -->
+                            </div>
+                        </div>
+
+
+                        <div class="adminLogout">
+                            <a href="instructorLogin.html"><button type="submit" id="logoutButton">
+                                    <!-- <label for="">Logout</label> -->
+                                    Logout<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                        fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                    </svg>
+                                </button></a>
+                        </div>
+
+                        <div class="horizontalLine">
+
+                        </div>
+                    </div>
+                    <div class="workPane">
+                        <div>
+                            <li class="panelOption">
+                                <ul><a href="instructorPanelHome.html">Home</a></ul>
+                                <ul><a href="instructorUploadExam.html">Upload Exam</a></ul>
+                                <ul><a href="instructorSendEmail.html">Send Email</a> </ul>
+                                <ul><a href="instructorViewReport.html"
+                                        style="border-bottom: 3px solid rgb(255, 255, 255);">View Student Report</a>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="workArea">
+                            <div>
+                                <h2 style="text-align: center; margin: 10px; font-family: montserrat;">Bankers
+                                    Information
+                                </h2>
+                                <div id="workAreaInfo">
+                                    <div class="infoLabel">
+                                        <label for="">Select exam for which report is going to be generated.</label>
+                                    </div>
+                                    <div class="infoArea">
+                                        <select style="border: none; background: transparent; font-size: larger;">
+                                            <option value="Exam1">Exam1</option>
+                                            <option value="Exam2">Exam2</option>
+                                            <option value="Exam3">Exam3</option>
+                                            <option value="Exam4">Exam4</option>
+                                            <option value="Exam5">Exam5</option>
+                                            <option value="Exam6">Exam6</option>
+                                        </select>
+                                    </div>
+                                    <div class="executeBtn">
+                                        <button type="submit">Generate Report</button>
+                                    </div>
+
+                                    <table id="bankersInfo">
+                                        <tr>
+                                            <th>Student Id</th>
+                                            <th>First Name</th>
+                                            <th>Second Name</th>
+                                            <th>Email</th>
+                                            <th>Gender</th>
+                                            <th>Exam Score</th>
+                                            <th>Max Score</th>
+                                            <th>Grade</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1000398</td>
+                                            <td>Lati</td>
+                                            <td>Tibabu</td>
+                                            <td>lati@oes.com</td>
+                                            <td>Male</td>
+                                            <td>18</td>
+                                            <td>20</td>
+                                            <td>A</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1000398</td>
+                                            <td>Lati</td>
+                                            <td>Tibabu</td>
+                                            <td>lati@oes.com</td>
+                                            <td>Male</td>
+                                            <td>18</td>
+                                            <td>20</td>
+                                            <td>A</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1000398</td>
+                                            <td>Lati</td>
+                                            <td>Tibabu</td>
+                                            <td>lati@oes.com</td>
+                                            <td>Male</td>
+                                            <td>18</td>
+                                            <td>20</td>
+                                            <td>A</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aboutPart">
+        <p id="aboutRoyal">
+            "Welcome to OES, the Online Examination System that empowers you with the freedom to learn and teach on your
+            own terms. With OES, every individual has the opportunity to create an account as an instructor or student,
+            unlocking the potential to share knowledge or gain new insights. As an instructor, you can easily upload
+            exams and course materials, while as a student, you have the freedom to attempt questions or take exams at
+            your own pace. With OES, learning is no longer restricted to a traditional classroom setting, as we provide
+            a platform that adapts to your needs and learning style. Join us today and unlock the freedom to learn and
+            teach without limitations."
+        </p>
+    </div>
+    <footer>
+        <div>
+            <p>OES 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
